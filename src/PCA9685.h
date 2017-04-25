@@ -24,8 +24,9 @@
 #ifndef _PCA9685_H
 #define _PCA9685_H
 #include <inttypes.h>
-#include "I2C.h"
+//#include <linux/i2c.h>
 // Register Definitions
+#include "I2C.h"
 
 #define MODE1 0x00			//Mode  register  1
 #define MODE2 0x01			//Mode  register  2
